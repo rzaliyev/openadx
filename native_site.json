@@ -1,0 +1,68 @@
+{
+  "id": "a43-f27172e-5287f22a400",
+  "tmax": 120,
+  "cur": ["USD", "KZT"],
+  "device": {
+    "dnt": 0,
+    "geo": {
+      "country": "USA",
+      "lat": 40.4681,
+      "lon": -78.9907,
+      "city": "Nashville"
+    },
+    "ifa": "7ffc6614-0a85-41b7-b09a-f84e176f8d7d",
+    "connectiontype": 2,
+    "model": "TB-X104F",
+    "make": "Lenovo",
+    "carrier": "Verizon Internet Services",
+    "os": "android",
+    "osv": "8.1.0",
+    "js": 1,
+    "ua": "Mozilla/5.0 (Linux; Android 8.0.0; Lenovo TB-X104F Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/73.0.3683.90 Safari/537.36",
+    "ip": "74.151.140.127",
+    "devicetype": 1
+  },
+  "app": {
+    "bundle": "com.producer1.powerclean",
+    "storeurl": "https://play.google.com/store/apps/details?id=com.producer1.powerclean",
+    "cat": ["IAB1"],
+    "pagecat": ["IAB24"],
+    "publisher": {
+      "id": "5215"
+    },
+    "id": "cd50e23dcbc4",
+    "name": "Power Clean App"
+  },
+  "at": 2,
+  "imp": [
+    {
+      "id": "18812",
+      "instl": 0,
+      "secure": 0,
+      "native": {
+        "request": "{\"native\":{\"adunit\":2,\"assets\":[{\"id\":3,\"img\":{\"h\":120,\"hmin\":0,\"type\":3,\"w\":180,\"wmin\":0},\"required\":1},{\"id\":0,\"required\":1,\"title\":{\"len\":140}},{\"data\":{\"len\":25,\"type\":1},\"id\":4,\"required\":1},{\"data\":{\"len\":140,\"type\":2},\"id\":6,\"required\":1}],\"context\":1,\"layou    t\":1,\"contextsubtype\":11,\"plcmtcnt\":1,\"plcmttype\":2,\"ver\":\"1.0\",\"ext\":{\"banner\":{\"w\":300,\"h\":250}}}}"
+      },
+      "bidfloor": 0.25
+    },
+    {
+      "id": "45862",
+      "instl": 0,
+      "secure": 0,
+      "native": {
+        "request": "{\"native\":{\"adunit\":2,\"assets\":[{\"id\":3,\"img\":{\"h\":120,\"hmin\":0,\"type\":3,\"w\":180,\"wmin\":0},\"required\":1},{\"id\":0,\"required\":1,\"title\":{\"len\":140}},{\"data\":{\"len\":25,\"type\":1},\"id\":4,\"required\":1},{\"data\":{\"len\":140,\"type\":2},\"id\":6,\"required\":1}],\"context\":1,\"layou    t\":1,\"contextsubtype\":11,\"plcmtcnt\":1,\"plcmttype\":2,\"ver\":\"1.0\",\"ext\":{\"banner\":{\"w\":300,\"h\":250}}}}"
+      },
+      "bidfloor": 0.30
+    }
+  ],
+  "user": {
+    "id": "01d38bcdcc9ebebba4703a3b711d9a5c0822d991ea80d5ced4582e4a629b865f"
+  },
+  "regs": {
+    "ext": {
+      "gdpr": 0
+    }
+  },
+  "ext": {
+    "partner": 1053
+  }
+}
