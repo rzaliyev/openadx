@@ -33,3 +33,32 @@ func (o OperationMode) String() string {
 	}
 	return "Unknown"
 }
+
+type FinalDecision int
+
+const (
+	FinalDecisionExchange FinalDecision = iota
+	FinalDecisionUpstreamSource
+)
+
+func (fd FinalDecision) String() string {
+	switch fd {
+	case FinalDecisionExchange:
+		return "Final Decision: Exchange"
+	case FinalDecisionUpstreamSource:
+		return "Final Decision: Upstream Source"
+	}
+	return "Unknown"
+}
+
+type GDPRState int
+
+const (
+	GDPRStateNo GDPRState = iota
+	GDPRStateYes
+	GDPRStateUnknown
+)
+
+type ExtRegsGDPR struct {
+	GDPR *int8 `json:"gdpr,omitempty"`
+}

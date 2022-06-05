@@ -86,6 +86,26 @@ func TestRequest(t *testing.T) {
 		assertBool(t, req.IsAdvDomainAllowed("com.example"), false)
 	})
 
+	t.Run("bid request final decision maker", func(t *testing.T) {
+		got := req.GetFinalDecision()
+		want := FinalDecisionUpstreamSource
+		if got != want {
+			t.Errorf("got %v, want %v", got, want)
+		}
+	})
+
+	t.Run("bid request subject to COPPA", func(t *testing.T) {
+		assertBool(t, req.IsSubjectToCOPPA(), true)
+	})
+
+	t.Run("bid request subject to GDPR", func(t *testing.T) {
+		got := req.IsSubjectToGDPR()
+		want := GDPRStateYes
+		if got != want {
+			t.Errorf("got %v, want %v", got, want)
+		}
+	})
+
 }
 
 func assertSize(t testing.TB, got, want int) {

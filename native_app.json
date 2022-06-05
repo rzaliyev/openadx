@@ -64,11 +64,15 @@
     "id": "01d38bcdcc9ebebba4703a3b711d9a5c0822d991ea80d5ced4582e4a629b865f"
   },
   "regs": {
+    "coppa": 1,
     "ext": {
-      "gdpr": 0
+      "gdpr": 1
     }
   },
   "ext": {
     "partner": 1053
+  },
+  "source": {
+    "fd": 1
   }
 }
