@@ -2,7 +2,11 @@
   "id": "a43-f27172e-5287f22a400",
   "tmax": 120,
   "cur": ["USD", "KZT"],
-  "wseat":["1234","7344", "9821"],
+  "wlang": ["en", "fr"],
+  "bseat":["1234","7344"],
+  "bcat":["IAB26", "iab14-3"],
+  "badv": ["com.example"],
+  "allimps": 1,
   "device": {
     "dnt": 0,
     "geo": {
@@ -34,6 +38,7 @@
     "id": "cd50e23dcbc4",
     "name": "Power Clean App"
   },
+  "test": 1,
   "at": 2,
   "imp": [
     {

@@ -1,0 +1,22 @@
+{
+  "native": {
+    "adunit": 2,
+    "assets": [
+      {
+        "id": 3,
+        "img": { "h": 120, "hmin": 0, "type": 3, "w": 180, "wmin": 0 },
+        "required": 1
+      },
+      { "id": 0, "required": 1, "title": { "len": 140 } },
+      { "data": { "len": 25, "type": 1 }, "id": 4, "required": 1 },
+      { "data": { "len": 140, "type": 2 }, "id": 6, "required": 1 }
+    ],
+    "context": 1,
+    "layou    t": 1,
+    "contextsubtype": 11,
+    "plcmtcnt": 1,
+    "plcmttype": 2,
+    "ver": "1.0",
+    "ext": { "banner": { "w": 300, "h": 250 } }
+  }
+}
